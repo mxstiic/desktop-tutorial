@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <!-- Meta tags essenciais -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - FiapTech</title>
+    
+    <!-- Link para o CSS do Bootstrap -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Link para o arquivo de estilos personalizados -->
+    <link rel="stylesheet" href="./assets/css/styles.css">
+</head>
+<body>
+    <!-- Container principal que centraliza o conteúdo -->
+    <div class="container d-flex justify-content-center align-items-center min-vh-100">
+        <!-- Container do formulário de login -->
+        <div class="login-container">
+            <!-- Título principal -->
+            <h1>Bem-vindo ao <span class="highlight">FiapTech</span></h1>
+            <!-- Subtítulo -->
+            <h2>Entre com seu login</h2>
+            
+            <!-- Formulário de login -->
+            <form>
+                <!-- Grupo do campo de e-mail -->
+                <div class="form-group">
+                    <label for="email">E-mail</label>
+                    <!-- Campo de entrada para o e-mail -->
+                    <input type="email" class="form-control" id="email" placeholder="exemplo123@gmail.com">
+                </div>
+                
+                <!-- Grupo do campo de senha -->
+                <div class="form-group">
+                    <label for="senha">Senha</label>
+                    <!-- Campo de entrada para a senha -->
+                    <input type="password" class="form-control" id="senha" placeholder="*Digite sua senha*">
+                </div>
+                
+                <!-- Grupo do checkbox -->
+                <div class="form-group form-check">
+                    <!-- Checkbox para confiar no dispositivo -->
+                    <input type="checkbox" class="form-check-input" id="confiar">
+                    <label class="form-check-label" for="confiar">Confiar neste dispositivo</label>
+                </div>
+                
+                <!-- Link para "Esqueci minha senha" -->
+                <div class="form-group">
+                    <a href="#" class="forgot-password">Esqueci minha senha</a>
+                </div>
+                
+                <!-- Botão de login -->
+                <button type="submit" class="btn btn-primary btn-block">Log in</button>
+                
+                <!-- Link para cadastro -->
+                <p class="text-center mt-3">Ainda não tem Cadastro? <a href="#">Cadastre-se</a></p>
+            </form>
+        </div>
+    </div>
+    
+    <!-- Scripts do Bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
